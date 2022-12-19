@@ -36,44 +36,7 @@ the RPG (role-play game) with 3 major elements.</p>
         </Front>
         <Middle>
             <Left>
-                        {/* <SliderDiv>
-        <Swiper
-          pagination={{
-            type: "progressbar",
-         }}
-        slidesPerView={2}
-        spaceBetween={10}
-        navigation={true}
-        modules={[Pagination, Navigation]}
-        className="mySwiper"
-      >
-
-    <SwiperSlide>
-        <img src='/images/871.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/866.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1046.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1003.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1199.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1286.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1390.png' />
-    </SwiperSlide>
-    <SwiperSlide>
-        <img src='/images/1199.png' />
-    </SwiperSlide>
-      </Swiper>
-        </SliderDiv> */}
+                        
             </Left>
             <Right>
                 <ul>

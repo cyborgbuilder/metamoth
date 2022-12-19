@@ -13,7 +13,7 @@ function Hero() {
       <Wrap>
 
         <HeroSec>
-            <h1> Metamoths</h1>
+            <h1>THE Metamoths Project</h1>
             <p>A crypto blockchain NFT based gaming environment where a community can come together and learn the environment values of the moths & butterfly’s worth to this planet while playing games and earning crypto.</p>
             <img src='./images/logo2.png' />
         </HeroSec>
@@ -52,16 +52,16 @@ const HeroSec = styled.div`
     }
 
     img{
-        width: 12%;
-
+        width: 10%;
+        margin: 30px 0;
         @media only screen and (max-width: 1200px){
             width: 30%;
-            margin: 30px 0;
+            margin: 20px 0;
         }
     }
 
 p{
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     margin: 10px 0;
     letter-spacing: 1.1px;
@@ -73,7 +73,7 @@ p{
 }
 
 h1{
-    font-size: 210px;
+    font-size: 155px;
     text-align: center;
     text-transform: uppercase;
     // font-family: 'Rubik Microbe', cursive;

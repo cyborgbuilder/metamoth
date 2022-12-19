@@ -12,11 +12,10 @@ import Game from './components/Game';
 import styled from 'styled-components';
 import VideoPage from './components/VideoPage';
 import Roadmaps from './components/Roadmap';
+import Footer from './components/Footer'
 import { FaTwitter } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaPinterest } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 
 
@@ -25,12 +24,11 @@ function App() {
     <div className="App">
       {/* <Blank /> */}
       <SocialIcons>
-        <FaDiscord style={{color: 'white', margin: '0 5px '}}/>
-          <FaTwitter style={{color: 'white', margin: '0 5px '}} />
-          <FaTelegram style={{color: 'white', margin: '0 5px '}}/>
-          <FaInstagram style={{color: 'white', margin: '0 5px '}}/>
-          <FaPinterest style={{color: 'white', margin: '0 5px '}}/>         
-          <FaFacebook style={{color: 'white', margin: '0 5px '}}/>
+      <a href='https://discord.com/'><FaDiscord style={{color: '#fff', margin: '0 5px '}}/></a> 
+        <a href='https://twitter.com/j10hunter'><FaTwitter style={{color: '#fff', margin: '0 5px '}} /></a>
+          <a href='https://t.me/Metamoths'><FaTelegram style={{color: '#fff', margin: '0 5px '}}/></a>
+          <a href='https://www.instagram.com/Metamoths'><FaInstagram style={{color: '#fff', margin: '0 5px '}}/></a>
+          
 
           <Button>CONNECT</Button>
         </SocialIcons>
@@ -43,7 +41,9 @@ function App() {
      <Roadmaps />
      <Community />
      <Website />
-     {/* <MothsMatter /> */}
+     <MothsMatter />
+     <Website />
+     <Footer />
 
     </div>
   );
@@ -58,20 +58,38 @@ const SocialIcons = styled.div`
     display: flex;
     font-size: 45px;
     padding: 10px 0;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
 
     @media only screen and (max-width: 1200px) {
       font-size: 30px;
+    }
+
+    a{
+      transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+      &:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+      }
     }
 `
 
 const Button = styled.button`
     border: 1px solid #fff;
+    height: 50px;
     outline: none;
     padding: 10px;
     font-size: 17px;
     margin-left: 20px;
     background: none;
-    font-family: 'Rubik Distressed', cursive
+    font-family: 'Rubik Distressed', cursive;
+    transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+
+    &:hover{
+      background: #fff;
+      color: black;
+      cursor: pointer;
+    }
 
 `
 

@@ -5,7 +5,7 @@ function Roadmaps() {
   return (
     <Container>
         <Wrap>
-            <h1 style={{color: '#fff', textAlign: 'center', marginBottom: '100px ', fontSize: '70px', fontFamily: "'Rubik Microbe', cursive"}}>Roadmap</h1>
+            <h1 style={{color: '#fff', textAlign: 'center', marginBottom: '100px ', fontSize: '65px', fontFamily: "'Rubik Microbe', cursive"}}>Roadmap</h1>
             <Section>
                 <SlotLeft>
                    	<Fade left>

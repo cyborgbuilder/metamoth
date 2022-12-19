@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper";
+import "./styles.css"
 
 function MothsMatter() {
   return (
@@ -9,7 +12,25 @@ function MothsMatter() {
         <h1>#MothsMatter!</h1>
         </Header>
         <Content>
-        <Left></Left>
+        <Left>
+          <ImageBox>
+          <h1>#MothsMatter!</h1>
+          <img src='./images/866.png' />
+          <img src='./images/871.png' />
+          <img src='./images/1003.png' />
+
+          <img src='./images/1046.png' />
+          <img src='./images/1199.png' />
+          <img src='./images/1286.png' />
+
+          <img src='./images/1046.png' />
+          <img src='./images/1199.png' />
+          <img src='./images/1286.png' />
+          </ImageBox>
+
+
+          
+        </Left>
         <Right>
 
             <p>Here at Butterfly Conservation we naturally think moths are fascinating, important and worth protecting. But we know that not everybody gets a warm feeling when moths are mentioned - we're here to change that!</p>
@@ -46,10 +67,59 @@ const Wrap = styled.div`
     margin-bottom: 50px;
     overflow: hidden;
 
+    
+ 
+
 `
 
 const Left = styled.div`
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 1200px){
+      width: 100%;
+  }
+  
+`
+
+const SliderDiv = styled.div`
+  width: 100%;
+  
+`
+
+const ImageBox = styled.div`
+    width: 90%;
+    padding: 0 20px;
+    background: #FFFDD0;
+    border-radius: 25px;
+    opacity: 0.85;
+
+    
+    @media only screen and (max-width: 1200px){
+      padding: 0;
+      margin: 10px 0;
+  }
+
+    img{
+      width: 25%;
+      height: 20%;
+      margin: 20px;
+      border-radius: 15px;
+      
+      @media only screen and (max-width: 1200px){
+        margin: 10px;
+    }
+    }
+
+    h1{
+      color: black;
+      text-align: center;
+      font-family: 'Rubik 80s Fade', cursive;
+      margin: 20px 0;
+    }
+
 
 `
 
@@ -59,6 +129,11 @@ const Right = styled.div`
     background: #FFFDD0;
     border-radius: 25px;
     opacity: 0.85;
+
+    @media only screen and (max-width: 1200px){
+      width: 100%;
+      padding: 0px;
+  }
     
 
     p{
@@ -69,6 +144,14 @@ const Right = styled.div`
       text-align: center;
       line-height: 1.6rem;
       letter-spacing: 1px;
+
+      
+      @media only screen and (max-width: 1200px){
+        font-size: 12px;
+        text-align: center;
+    }
+   
+
     }
 
     h2{
@@ -77,6 +160,13 @@ const Right = styled.div`
       font-family: 'Rubik 80s Fade', cursive;
       font-size: 20px;
       letter-spacing: 2px;
+
+      
+      @media only screen and (max-width: 1200px){
+        font-size: 19px;
+        text-align: center;
+    }
+
     }
 `
 const Header = styled.div`
@@ -88,11 +178,23 @@ h1{
   font-family: 'Rubik 80s Fade', cursive;
   letter-spacing: 2px;
 
+  @media only screen and (max-width: 1200px){
+    font-size: 40px;
+    margin: 10px 0;
+}
+
 }
 
 `
 
 const Content = styled.div`
     display: flex; 
+
+    @media only screen and (max-width: 1200px){
+      flex-direction: column;
+  }
 `
+
+
+
 export default MothsMatter
