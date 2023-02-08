@@ -46,7 +46,7 @@ This will give each NFT owner A piece of the action</p>
 const Container = styled.div`
     width: 100%;
     min-height: 90vh;
-    background: black;
+    background: #9DD9F3;
     display: flex;
     justify-content: center;
 

@@ -42,7 +42,7 @@ function Footer() {
 const Container = styled.div`
   width: 100%;
   min-height: 80vh;
-  background: black;
+  background: #9DD9F3;
   position: relative;
   display: flex;
   align-items: center;

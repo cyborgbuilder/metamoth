@@ -31,8 +31,7 @@ function Story() {
 const Container = styled.div`
     width: 100%;
     min-height: 70vh;
-    background: black;
-    background: linear-gradient(180deg, #0000002A 0%, #000000 104%), url('/images/bg2.png');
+    background: linear-gradient(180deg, #9DD9F3 0%, #9DD9F3 104%), url('/images/bg2.png');
     background-size: cover;
     display: flex;
     justify-content: center;

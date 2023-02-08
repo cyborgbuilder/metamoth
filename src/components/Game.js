@@ -93,7 +93,7 @@ Arena battle related. </li>
 const Container = styled.div`
     width: 100%;
     min-height: 100vh;
-    background: black;
+    background: #9DD9F3;
     display: flex;
     justify-content: center;
 

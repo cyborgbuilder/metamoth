@@ -322,7 +322,7 @@ A group of moths is called an eclipse</li>
 
 const Container = styled.div`
     width: 100%;
-    background: linear-gradient(180deg, #0000002A 0%, #000000 104%), url('/images/smoke.jpg');
+    background: linear-gradient(180deg, #9DD9F3 0%, #000000 104%), url('/images/smoke.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: felx;

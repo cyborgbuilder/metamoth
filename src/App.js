@@ -17,13 +17,13 @@ import { FaTwitter } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Home from './components/Home';
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Blank /> */}
-      <SocialIcons>
+      {/* <SocialIcons>
       <a href='https://discord.com/'><FaDiscord style={{color: '#fff', margin: '0 5px '}}/></a> 
         <a href='https://twitter.com/j10hunter'><FaTwitter style={{color: '#fff', margin: '0 5px '}} /></a>
           <a href='https://t.me/Metamoths'><FaTelegram style={{color: '#fff', margin: '0 5px '}}/></a>
@@ -43,7 +43,9 @@ function App() {
      <Website />
      <MothsMatter />
      <Website />
-     <Footer />
+     <Footer /> */}
+
+     <Home />
 
     </div>
   );
