@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import styled from 'styled-components'
 import { FaTwitter } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
@@ -10,7 +10,7 @@ function Home() {
     <Container>
       <Wrap>
         <Left>
-          <img src='./images/317.png' />
+          <img src='./images/mm1.png' />
         </Left>
         <Right>
           <h1>THE METAMOTHS PROJECT</h1>
@@ -36,7 +36,7 @@ const Container = styled.div`
     min-height: 100vh;
     background-image: linear-gradient(to right top, #deaceb, #c798da, #af85c9, #9872b8, #8160a8, #785ca8, #6f59a8, #6456a8, #6561b8, #646bc8, #6177d8, #5c82e8);   //#5C82E8 #614993 #DEACEB
     display: flex;
-    align-items: center;
+   // align-items: center;
     justify-content: center;
 
 `
@@ -47,12 +47,12 @@ const Wrap = styled.div`
 `
 
 const Left = styled.div`
-  width: 60%;
+  width: 50%;
   display: flex;
-  align-items: center;
+  //align-items: center;
   justify-content: center;
   img{
-    width: 80%;
+    width: 92%;
     border-radius: 5%;
     //box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px, rgb(0 0 0 / 73% ) 0px 16px 10px -10px;
     transition: all 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
@@ -65,7 +65,7 @@ const Left = styled.div`
 `
 
 const Right = styled.div`
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +92,7 @@ const Right = styled.div`
 `
 
 const SocialIcons = styled.div`
-  font-size: 50px;
+  font-size: 55px;
   padding-top: 30px;
 
 `

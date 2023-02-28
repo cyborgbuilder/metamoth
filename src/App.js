@@ -5,6 +5,7 @@ import Blank from './components/Blank';
 import Hero from './components/Hero';
 import Roadmap from './components/Roadmap';
 import Story from './components/Story';
+import About from './components/About'
 import Community from './components/Community'
 import Website from './components/Website';
 import MothsMatter from './components/MothsMatter';
@@ -46,6 +47,8 @@ function App() {
      <Footer /> */}
 
      <Home />
+     <About />
+     <Roadmap />
 
     </div>
   );

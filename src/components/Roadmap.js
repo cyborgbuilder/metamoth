@@ -5,7 +5,7 @@ function Roadmaps() {
   return (
     <Container>
         <Wrap>
-            <h1 style={{color: '#fff', textAlign: 'center', marginBottom: '100px ', fontSize: '65px', fontFamily: "'Rubik Microbe', cursive"}}>Roadmap</h1>
+            <h1 style={{color: '#fff', textAlign: 'center', marginBottom: '100px ', fontSize: '85px', fontFamily: 'Unbounded, cursive'}}>Roadmap</h1>
             <Section>
                 <SlotLeft>
                    	<Fade left>
@@ -26,9 +26,7 @@ function Roadmaps() {
                		{/* <AlignLeft><h2>LEVEL 01</h2></AlignLeft> */}
                     		<AlignLeft>
                     			<ul>
-                        			<li>Bringing the Metamoths to life.</li>
-                        			<li>NFTS Stories Gaming all rolled into a brand.
-with its own ecosystem.</li>
+                        			<li>Bringing the Metamoths to life with an NFTS ‘ website building for the community. introduction to the ecosystem</li>
                     			</ul>
                     		</AlignLeft>
                	</Fade>
@@ -67,11 +65,7 @@ with its own ecosystem.</li>
                    <AlignLeft>
 
                     <ul>
-                        <li>Introducing the Metamoths brand to the world. Up to 5000 NFTS will be released</li>
-                        <li>Hopefully they will survive in the crypto winter.
-Sort website/dapp and the community media and other aspects of the NFTS.
-
-</li>
+                        <li>Introduction of the Metamoths brand to the world, with release of up to 5000 NFTs</li>
                     </ul>
                     </AlignLeft>
                 </Fade>
@@ -107,10 +101,7 @@ Sort website/dapp and the community media and other aspects of the NFTS.
                 {/* <AlignLeft><h2>Whitelisting</h2></AlignLeft> */}
                     <AlignLeft>
                     <ul>
-                        <li>certain percentage points of NFT sales Find a suitable team to work with hopefully community based and to help the
-Metamoths thrive in the current climate — in progress
-
-</li>
+                        <li>Finding a suitable team to work with, hopefully community-based, to help the Metamoths thrive in the current market</li>
                     </ul>
                     </AlignLeft>
                 </Fade>
@@ -154,7 +145,7 @@ Metamoths thrive in the current climate — in progress
                    <AlignLeft>
 
                     <ul>
-                        <li>Introduce the team and game developers to the community and will show more definition in the whole project</li>
+                        <li>Introduction of the team and game developers to the community, with more definition in the project</li>
                     </ul>
                     </AlignLeft>
                 </Fade>
@@ -189,7 +180,7 @@ Metamoths thrive in the current climate — in progress
                {/* <AlignLeft><h2>50% P2E Game</h2></AlignLeft> */}
                     <AlignLeft>
                     <ul>
-                        <li>Introduce another 5000 Metamoth NFTS to the world</li>
+                        <li> Release of 5000 Metamoth NFTs to the world</li>
                     </ul>
                     </AlignLeft>
                </Fade>
@@ -228,8 +219,7 @@ Metamoths thrive in the current climate — in progress
                    <AlignRight>
 
                     <ul>
-                        <li>As the Metamoths leave there hive and find new homes the community will get stronger
-A group of moths is called an eclipse</li>
+                        <li>As the Metamoths leave their hive and find new homes, the community will grow stronger</li>
                     </ul>
                     </AlignRight>
                </Fade>
@@ -264,9 +254,8 @@ A group of moths is called an eclipse</li>
                {/* <AlignLeft><h2>Game Pass</h2></AlignLeft> */}
                     <AlignLeft>
                     <ul>
-                        <li>Find the right eclipse of Metamoths to take the project global or maybe to mars</li>
-                        <li>Find eco friendly projects regarding moths&butterfly’s —in progress</li>
-                        <li>There will be more information when we reach this stage regarding the metamoths and the whole ecosystem.</li>
+                        <li>Finding the right "eclipse" of Metamoths to take the project global and finding eco-friendly projects regarding metamoths </li>
+                        
                     </ul>
                     </AlignLeft>
                </Fade>
@@ -322,7 +311,7 @@ A group of moths is called an eclipse</li>
 
 const Container = styled.div`
     width: 100%;
-    background: linear-gradient(180deg, #9DD9F3 0%, #000000 104%), url('/images/smoke.jpg');
+    background-image: linear-gradient(to left bottom, #5c82e8, #6177d8, #646bc8, #6561b8, #6456a8, #6f59a8, #785ca8, #8160a8, #9872b8, #af85c9, #c798da, #deaceb);
     background-size: cover;
     background-repeat: no-repeat;
     display: felx;
@@ -382,17 +371,19 @@ const SlotLeft = styled.div`
         margin: 0 10px;
     }
     h1{
-        color: #fff;
-        font-family: 'Nerko One', cursive;
+        color: black;
+        font-family: 'Chakra Petch', sans-serif;;
         @media only screen and (max-width: 1200px) {
             font-size: 40px;
           }
     }
     li{
-        color: #fff;
+        color: black;
         font-size: 20px;
         list-style: none;
-        font-family: 'Nerko One', cursive;
+        letter-spacing: 1.1px;
+        line-height: 2.1rem;
+        font-family: 'Chakra Petch', sans-serif;;
         @media only screen and (max-width: 1200px) {
             list-style: none;
             font-size: 16px;
@@ -401,7 +392,7 @@ const SlotLeft = styled.div`
     h2{
         color: #fff;
         font-size: 28px;
-        font-family: 'Nerko One', cursive;
+        font-family: 'Chakra Petch', sans-serif;;
         padding: 10px;
         border-bottom: 1px solid #fff;
         border-radius: 15px;
@@ -427,10 +418,12 @@ const SlotRight = styled.div`
         height: 100px;
       }
     li{
-        color: #fff;
+        color: black;
         font-size: 20px;
         list-style: none;
-        font-family: 'Nerko One', cursive;
+        letter-spacing: 1.1px;
+        line-height: 2.1rem;
+        font-family: 'Chakra Petch', sans-serif;;
         @media only screen and (max-width: 1200px) {
             list-style: none;
             font-size: 16px;
@@ -441,16 +434,16 @@ const SlotRight = styled.div`
         margin: 0 20px;
     }
     h1{
-        color: #fff;
-        font-family: 'Nerko One', cursive;
+        color: black;
+        font-family: 'Chakra Petch', sans-serif;;
         @media only screen and (max-width: 1200px) {
             font-size: 40px;
           }
     }
     h2{
-        color: #fff;
+        color: black;
         font-size: 26px;
-        font-family: 'Nerko One', cursive;
+        font-family: 'Chakra Petch', sans-serif;;
         padding: 10px;
         border-bottom: 1px solid #fff;
         border-radius: 15px;
@@ -481,7 +474,7 @@ const SlotMiddle = styled.div`
 const Logo = styled.div`
     width: 100px;
     height: 100px;
-    border: 1px solid #fff;
+    border: 1px solid black;
     border-radius: 50%;
     padding: 10px;
     display: flex;
@@ -492,8 +485,9 @@ const Logo = styled.div`
     }
 
     h1{
+        color: black;
       font-size: 50px;
-      font-family: 'Rubik Microbe', cursive;
+      font-family: 'Chakra Petch', sans-serif;;
     }
 `
 
