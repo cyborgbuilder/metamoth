@@ -87,6 +87,7 @@ function Roadmaps() {
                 <Fade left>
                 <AlignRight>
                    <h1>In Progress</h1>
+                   <img src='/images/loading.png' />
                     
                    </AlignRight>
                 </Fade>
@@ -125,6 +126,7 @@ function Roadmaps() {
                <Fade left>
                <AlignRight>
                    <h1>In Progress</h1>
+                   <img src='/images/loading.png' />
                 </AlignRight>
                </Fade>
                 </SlotRight>
@@ -167,6 +169,7 @@ function Roadmaps() {
                    <Fade left>
                    <AlignRight>
                    <h1>In Progress</h1>
+                   <img src='/images/loading.png' />
                    </AlignRight>
                    </Fade>
                 </SlotLeft>
@@ -202,6 +205,7 @@ function Roadmaps() {
                <Fade left>
                <AlignRight>
                    <h1>In Progress</h1>
+                   <img src='/images/loading.png' />
                    </AlignRight>
                </Fade>
                 </SlotRight>
@@ -241,6 +245,7 @@ function Roadmaps() {
                    <Fade left>
                    <AlignRight>
                    <h1>In Progress</h1>
+                   <img src='/images/loading.png' />
                    </AlignRight>
                    </Fade>
                 </SlotLeft>
@@ -261,6 +266,14 @@ function Roadmaps() {
                </Fade>
                 </SlotRight>
             </Section>
+
+            <ImageSlot>
+                <img src='/images/caps-disk-2.png' />
+            </ImageSlot>
+
+            {/* <ImageSlotTwo>
+                <img src='/images/disk.jpg' />
+            </ImageSlotTwo> */}
 
             {/* <Section>
                 <SlotBlank></SlotBlank>
@@ -313,6 +326,7 @@ const Container = styled.div`
     width: 100%;
     background-image: linear-gradient(to left bottom, #5c82e8, #6177d8, #646bc8, #6561b8, #6456a8, #6f59a8, #785ca8, #8160a8, #9872b8, #af85c9, #c798da, #deaceb);
     background-size: cover;
+    position: relative;
     background-repeat: no-repeat;
     display: felx;
     flex-direction: column;
@@ -323,6 +337,7 @@ const Container = styled.div`
 const Wrap = styled.div`
     width: 90%;
     padding: 100px 0;
+    z-index: 1000;
 
     @media only screen and (max-width: 1200px){
         padding: 50px 0;
@@ -352,6 +367,21 @@ const Section = styled.div`
 //           100%;
 //       }
 // `
+
+const ImageSlot = styled.div`
+      width: 30%;
+      height: 450px;
+      position: absolute;
+      top: 40%;
+      left: 10px;;
+      z-index: -1;
+
+      img{
+        border-radius: 25px;
+      }
+
+
+`
 
 const SlotLeft = styled.div`
     width: 40%;
@@ -474,7 +504,7 @@ const SlotMiddle = styled.div`
 const Logo = styled.div`
     width: 100px;
     height: 100px;
-    border: 1px solid black;
+    border: 1px solid #fff;
     border-radius: 50%;
     padding: 10px;
     display: flex;
@@ -485,7 +515,7 @@ const Logo = styled.div`
     }
 
     h1{
-        color: black;
+        color: #fff;
       font-size: 50px;
       font-family: 'Chakra Petch', sans-serif;;
     }
